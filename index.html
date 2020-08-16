@@ -1,0 +1,16 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>    
+  <h1 className="header">Minesweeper</h1>
+  <select id="difficulty" onchange="selectDifficulty()">
+    <option value="10">Easy</option>
+    <option value="20">Moderate</option>
+    <option value="30">Hard</option>
+  </select>
+  <table id="grid"></table>
+  <button onclick="createBoard()">Reset Grid</button>
+  <script src="index.js"></script>
+</body>
+</html>

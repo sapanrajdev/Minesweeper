@@ -1,0 +1,35 @@
+body {
+  font-family: courier new;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  font-size: 14pt;
+}
+#grid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#grid tr td{
+  display: -webkit-inline-box;
+  border: 1px solid;
+  background: #BDBDBD;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding: 12px;
+  font-size: 27px;
+  cursor: pointer;
+}
+
+#grid tr td.clicked {
+    border: 1px solid;
+    background: #333333;
+    color: #ffffff;
+}
+
+#grid tr td.mine {
+    background: #FF0000;
+}
